@@ -1,35 +1,24 @@
-# Task 6: House Price Prediction
+#  Task6: House Price Prediction
 
-## Objective
-Predict house prices using property features such as size, number of bedrooms, location, and other numeric attributes. The goal is to train a regression model to estimate the median house value.
+##  Project Overview
+This project is part of the **DevelopersHub AI/ML Internship Program (2025)**.  
+It demonstrates a complete machine learning workflow to **predict house prices** with high accuracy using Python and Jupyter Notebook.  
 
-## Dataset
-- Source: [Housing Dataset - HandsOnML](https://github.com/ageron/handson-ml2)
-- File: `house_prices.csv`
-- Features: longitude, latitude, housing_median_age, total_rooms, total_bedrooms, population, households, median_income, median_house_value, ocean_proximity
+The project covers:
+- Data preprocessing & cleaning  
+- Feature engineering & selection  
+- Model training & evaluation  
+- Performance metrics & visualization  
 
-## Model
-- Algorithm: Linear Regression
-- Library: scikit-learn
-- Train/Test Split: 80% train, 20% test
-- Features: Numeric columns only
+---
 
-## Results
-- MAE  : 52,615
-- RMSE : 72,443
-- Top Features:
-  - median_income: 40,538  
-  - housing_median_age: 1,183  
-  - total_bedrooms: 116  
+## ✨ Features
+- **Data Preprocessing:** Handle missing values, encode categorical features, scale numerical data.  
+- **Model Training:** Train regression models (e.g., Linear Regression, Random Forest).  
+- **Evaluation Metrics:** MAE (Mean Absolute Error), RMSE (Root Mean Squared Error).  
+- **Visualization:** Feature importance, actual vs predicted prices, residual plots for insights.  
 
-## Outputs
-- `task6_plot.png` → Actual vs Predicted scatter plot  
-- `house_price_model.pkl` → Saved trained model  
+---
 
-## How to Run
-```bash
-# Activate virtual environment
-source venv/bin/activate
+## 🗂 Project Structure
 
-# Run the backend script
-python3 task6_backend.py
